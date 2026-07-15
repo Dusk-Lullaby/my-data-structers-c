@@ -1,0 +1,58 @@
+# ----------------------------------------------------------------------------
+# Visual Studio 2022 C/C++ .gitignore
+# ----------------------------------------------------------------------------
+
+# 1. 隐藏的目录（包含本地缓存和 IntelliSense 数据库）
+.vs/
+
+# 2. 用户特定的文件（本地路径和个人配置，不应共享）
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 3. 编译输出目录 (存放生成的 .exe, .dll 等)
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# 4. 编译产生的中间文件和调试文件
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.pch
+*.lib
+*.exp
+*.dll
+*.appx
+*.appxrecipe
+*.winmd
+
+# 5. Visual Studio 缓存/数据库文件 (IntelliSense 产生的大文件)
+*.aps
+*.ncb
+*.opendb
+*.dbmdl
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+
+# 6. 其他临时文件
+*.tmp
+*.bak
+*.swp
+*~.nib
